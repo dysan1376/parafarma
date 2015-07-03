@@ -6,18 +6,19 @@
 # Be more verbose by uncommenting the following line
 # logger.level = Logger::MAX_LEVEL
 
-set :application, ""
-set :domain,      ""
-set :deploy_to,   ""
-set :user,        ""
+set :application, "parafarma"
+set :user,        "root"
+set :domain,      "#{user}@45.55.87.171"
+set :deploy_to,   "/var/www/html/#{application}"
+
 
 role :web,        domain
 role :app,        domain
 role :db,         domain, :primary => true
 
 set :scm,         :git
-set :repository,  ""
-set :branch,      ""
+set :repository,  "https://github.com/dysan1376/parafarma.git"
+set :branch,      "master"
 set :deploy_via,  :remote_cache
 
 ssh_options[:forward_agent] = true
