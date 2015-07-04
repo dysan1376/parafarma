@@ -1,50 +1,69 @@
 # This file is part of the Sylius package.
 # (c) Paweł Jędrzejewski
 
+
 email:
-  order_confirmation:
-    subject: Sujeto
+      order_confirmation:
+          name: Confirmación de Pedido
+          subject: Gracias por tu compra
+          header: !Felicidades! - Parafarma te informa el detalle de tu compra:
+
+      order_comment:
+          name: Comentario
+          subject: Nuevo comentario acerca de su compra
+          header: Comentario
+
+      shipment_confirmation:
+          name: Confirmación de envío
+          subject: Tu compra ha sido enviada!
+          header: Nos alegra informarte que tu compra esta camino a casa
+
+      user_confirmation:
+          name: Confirmación de Usuario
+          subject: Bienvenido a Parafarma!
 sylius:
   account:
     address:
       action:
-        billing: Establecer como dirección de facturación por defecto
+        billing: Establecer como dirección de facturación preferida
         create: Crear una nueva dirección
-        delete: sylius.account.address.action.delete
+        delete: Borrar
         edit: Editar
-        shipping: Establecer como dirección de envío por defecto
-      create: sylius.account.address.create
+        shipping: Establecer como dirección de envío preferida
+      create: Crear nueva dirección
       default:
-        billing: sylius.account.address.default.billing
-        no_billing: sylius.account.address.default.no_billing
-        no_shipping: sylius.account.address.default.no_shipping
-        shipping: sylius.account.address.default.shipping
-      empty: sylius.account.address.empty
-      list: sylius.account.address.list
-      update: sylius.account.address.update
+        billing: Dirección de facturación preferida
+        no_billing: Sin dirección de facturación preferida
+        no_shipping: Sin dirección de envío preferida
+        shipping: Dirección de envío preferida
+      empty: No tiene direcciones definidas
+      list: Todas tus direcciones
+      update: Editar mi dirección
     home:
-      email: ""
-      id: ""
+      email: Email :
+      id: Identificacion de Usuario :
       outline: Disfruta de todas las características disponibles en tu espacio personal para ver, seguir y gestionar toda tu información.
       since: Eres cliente desde
       welcome: Bienvenido a tu espacio
+      last5orders: Ultimas compras
     order:
-      created_at: Hecho el
+      created_at: Comprado el
       details: Detalles de tu pedido
       download_invoice: Descargar la factura
       empty: Aún no has hecho ningún pedido.
       invoice: Factura
       list: Todos tus pedidos
-      number: ""
-      payment_mode: ""
-      placed_at: 'Hecho el %at%'
+      number: Número :
+      payment_mode: Método de pago :
+      placed_at: 'Comprado el %at%'
       shipment:
         pending: Pendiente
-        ready: 'Preparado desde %at%'
+        ready: 'Envío listo desde %at%'
         returned: 'Devuelto %at%'
         shipped: 'Enviado %at%'
-      shipment_mode: ""
-      state: ""
+        onhold: La compra será enviada en los próximos minutos
+      shipment_mode: Método de envío :
+      state: Estado del pedido :
       total: Total
       tracking_number: Número de seguimiento
     title: Mi cuenta
@@ -99,7 +118,7 @@ sylius:
     assortment: Varios
     block:
       index: Bloques de contenido
-    build: sylius.breadcrumb.build
+    build: Crear
     configuration: Configuración
     country:
       index: Paises
@@ -108,7 +127,7 @@ sylius:
     exchange_rate:
       index: Tipos de cambio
     general_settings: Configuración general
-    generate: sylius.breadcrumb.generate
+    generate: Generar
     group:
       index: Grupos
     inventory:
@@ -131,7 +150,7 @@ sylius:
     promotion:
       index: Promociones
     promotion_coupon:
-      index: sylius.breadcrumb.promotion_coupon.index
+      index: Cupón
     property:
       index: Propiedades de producto
     archetype:
@@ -296,8 +315,8 @@ sylius:
     version: Versión
   homepage:
     splash:
-      headline: Bienvenido a Sylius
-      subheadline: ecommerce para Symfony2
+      headline: Parafarma
+      subheadline: Farmacia On-line
   inventory_unit:
     created_at: Fecha de creación
     inventory_state: Estado de inventario
@@ -317,7 +336,7 @@ sylius:
     updated_at: Última actualización
   login: Entrar
   login_header: Administración
-  logo: Sylius
+  logo: Parafarma
   manage: Administrar
   meta:
     backend_title: Panel de administración
@@ -602,7 +621,7 @@ sylius:
     update_header: Actualizar
     updated_at: Fecha de última modificación
     zone: Zona
-  shop_by: Comprado por
+  shop_by: Afinar búsqueda
   show: Mostrar
   show_all: Ver todos
   show_deleted: Mostrar eliminados

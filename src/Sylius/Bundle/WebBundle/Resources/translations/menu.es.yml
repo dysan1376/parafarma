@@ -6,22 +6,29 @@ sylius:
     menu:
       main:
         assortment: Varios
+        blocks: Bloques
         configuration: Configuración
         countries: Países
-        customer: Clientes
+        customer: Cliente
+        content: Contenido
+        channels: Canales
         dashboard: Panel general
+        currencies: Monedas
         exchange_rates: Tipos de cambio
         general_settings: Configuración general
+        groups: Grupos
         homepage: Mi tienda
         locales: Idiomas
         new_order: Añadir nuevo pedido
         new_promotion: Añadir nueva promoción
-        options: Administrar opciones de producto
+        options: Opciones de producto
         orders: Pedidos en curso
+        pages: Páginas
         payment_methods: Modos de pago
         payments: Pagos
         products: Productos
         promotions: Promociones
+        attributes: Configurar Atributos
         properties: Configurar propiedades
         archetypes: Prototipos de producto
         sales: Pedidos
@@ -33,16 +40,24 @@ sylius:
         tax_rates: Tasas de impuestos
         taxation_settings: Configuración de impuestos
         taxonomies: Categorización
+        customers: Clientes
+        emails: Emails
+        roles: roles
+        permissions: Permisos
+        report: Reportes
         users: Usuarios
         zones: Zonas
       sidebar:
+        api_clients: Clientes API
         assortment: Varios
         blocks: Bloques
         configuration: Configuración
         content: Contenido
         countries: Países
-        customer: Clientes
+        channels: Canales
+        customer: Cliente
         dashboard: Panel general
+        currencies: Monedas
         exchange_rates: Tipos de cambio
         general_settings: Configuración general
         groups: Grupos
@@ -50,26 +65,41 @@ sylius:
         locales: Idiomas
         new_order: Añadir nuevo pedido
         new_promotion: Añadir nueva promoción
-        options: Administrar opciones de producto
+        options: Opciones de producto
         orders: Pedidos en curso
         pages: Páginas
+        routes: Rutas
+        redirects: Redireccionamientos
+        menus: Menus
         payment_methods: Modos de pago
         payments: Pagos
         products: Productos
         promotions: Promociones
         properties: Configuración de propiedades
+        report: Reportes
+        attributes: Configurar Atributos
         archetypes: Prototipos de producto
         sales: Pedidos
+        security_settings: Configuración de Seguridad
         shipments: Envíos
         shipping_categories: Categorías de envío
         shipping_methods: Métodos de envío
+        slideshow: Diapositivas
         stockables: Niveles de inventario
         tax_categories: Categorías de impuestos
         tax_rates: Tasas de impuestos
         taxation_settings: Configuración de impuestos
         taxonomies: Categorización
+        customers: Clientes
+        emails: Emails
+        roles: roles
+        permissions: Permisos
+        marketing: Marketing
+        support: Ayuda
         users: Usuarios
         zones: Zonas
+        contact_requests: Solicitudes
+        contact_topics: Configurar Tópicos
   frontend:
     menu:
       account:
@@ -87,6 +117,8 @@ sylius:
         login: Iniciar sesión
         logout: Cerrar sesión
         register: Registrarse
+      sidebar:
+        links: Enlaces
       social:
         facebook: Facebook
         github: GitHub
