@@ -28,7 +28,7 @@
     min-height: 46px;
     padding-bottom: 15px;
     color: #ffffff;
-    background: url("../../bundles/cmfcreate/vendor/create/themes/create-ui/img/create-ui-bg.png") repeat scroll 0 0 transparent;
+    background: url("../bundles/cmfcreate/vendor/create/themes/create-ui/img/create-ui-bg.png") repeat scroll 0 0 transparent;
     background: rgba(0, 0, 0, .7);
     font-family: "Futura","Helvetica",Arial;
     text-decoration: none;
@@ -65,7 +65,7 @@ a.create-ui-toggle {
     text-decoration: none;
     width: 38px;
     height: 41px;
-    background-image: url("../../bundles/cmfcreate/vendor/create/themes/create-ui/img/create-ui-logo.png");
+    background-image: url("../bundles/cmfcreate/vendor/create/themes/create-ui/img/create-ui-logo.png");
     background-repeat: no-repeat;
 }
 
@@ -113,7 +113,7 @@ a.create-ui-toggle {
 }
 
 .create-ui-xdivider {
-    background: url("../../bundles/cmfcreate/vendor/create/themes/create-ui/img/create-ui-xdivider.png") repeat-y scroll 0 0 transparent;
+    background: url("../bundles/cmfcreate/vendor/create/themes/create-ui/img/create-ui-xdivider.png") repeat-y scroll 0 0 transparent;
     width: 1px;
     min-height: 45px;
 }
@@ -224,7 +224,7 @@ input[type="checkbox"].create-ui-btn-small {
 body > .hallotoolbar {
    background-color: #111111; 
    color: #ffffff;
-   background: url("../../bundles/cmfcreate/vendor/create/themes/create-ui/img/create-ui-bg.png") repeat scroll 0 0 transparent;
+   background: url("../bundles/cmfcreate/vendor/create/themes/create-ui/img/create-ui-bg.png") repeat scroll 0 0 transparent;
    background: rgba(0, 0, 0, .7);
    font-family: "Futura","Helvetica",Arial;
    text-decoration: none;
@@ -370,7 +370,7 @@ body > .hallotoolbar {
 
 .dropdown-menu {
     background-clip: padding-box;
-    background: url("../../bundles/cmfcreate/vendor/create/themes/create-ui/img/create-ui-bg.png") repeat scroll 0 0 transparent;
+    background: url("../bundles/cmfcreate/vendor/create/themes/create-ui/img/create-ui-bg.png") repeat scroll 0 0 transparent;
     background: rgba(0, 0, 0, .7);
     border-color: rgba(0, 0, 0, 0.2);
     border-radius: 5px 5px 5px 5px;
@@ -596,7 +596,7 @@ div.halloEditIndicator {
 .annotation-selector-dialog {
    background-color: #111111; 
    color: #ffffff;
-   background: url("../../bundles/cmfcreate/vendor/create/themes/create-ui/img/create-ui-bg.png") repeat scroll 0 0 transparent;
+   background: url("../bundles/cmfcreate/vendor/create/themes/create-ui/img/create-ui-bg.png") repeat scroll 0 0 transparent;
    background: rgba(0, 0, 0, .7);
    font-family: "Futura","Helvetica",Arial;
    text-decoration: none;
@@ -629,7 +629,7 @@ div.halloEditIndicator {
 .vie-autocomplete .ui-autocomplete {
    background-color: #111111; 
    color: #ffffff;
-   background: url("../../bundles/cmfcreate/vendor/create/themes/create-ui/img/create-ui-bg.png") repeat scroll 0 0 transparent;
+   background: url("../bundles/cmfcreate/vendor/create/themes/create-ui/img/create-ui-bg.png") repeat scroll 0 0 transparent;
    background: rgba(0, 0, 0, .7);
    font-family: "Futura","Helvetica",Arial;
    text-decoration: none;
@@ -735,7 +735,7 @@ div.halloEditIndicator {
 .halloimage-dialog .tabs li {
     display: table-cell;
     cursor: pointer;
-    background: #01add2 url('../../bundles/cmfcreate/vendor/create/themes/create-ui/css/images/divider.png') no-repeat right;
+    background: #01add2 url('../bundles/cmfcreate/vendor/create/themes/create-ui/css/images/divider.png') no-repeat right;
     text-align: center;
 }
 
@@ -749,13 +749,13 @@ div.halloEditIndicator {
     margin-right: 1px;
 }
 .halloimage-dialog .tabs li.halloimage-tab-suggestions span {
-    background: url('../../bundles/cmfcreate/vendor/create/themes/create-ui/css/images/tabicon_suggestions.png') no-repeat left;
+    background: url('../bundles/cmfcreate/vendor/create/themes/create-ui/css/images/tabicon_suggestions.png') no-repeat left;
 }
 .halloimage-dialog .tabs li.halloimage-tab-search span {
-    background: url('../../bundles/cmfcreate/vendor/create/themes/create-ui/css/images/tabicon_search.png') no-repeat left;
+    background: url('../bundles/cmfcreate/vendor/create/themes/create-ui/css/images/tabicon_search.png') no-repeat left;
 }
 .halloimage-dialog .tabs li.halloimage-tab-upload span {
-    background: url('../../bundles/cmfcreate/vendor/create/themes/create-ui/css/images/tabicon_upload.png') no-repeat left;
+    background: url('../bundles/cmfcreate/vendor/create/themes/create-ui/css/images/tabicon_upload.png') no-repeat left;
 }
 
 .halloimage-dialog .tabs li:last-of-type {
@@ -773,7 +773,7 @@ div.halloEditIndicator {
     width: 18px;
     height: 8px;
     display: relative;
-    background: url('../../bundles/cmfcreate/vendor/create/themes/create-ui/css/images/arrow.png');
+    background: url('../bundles/cmfcreate/vendor/create/themes/create-ui/css/images/arrow.png');
 }
 
 
@@ -858,7 +858,7 @@ div.halloEditIndicator {
 }
 
 .halloimage-dialog .rotationWrapper .hintArrow {
-    background: transparent url('../../bundles/cmfcreate/vendor/create/themes/create-ui/css/images/drop_left.png') no-repeat -2px -2px;
+    background: transparent url('../bundles/cmfcreate/vendor/create/themes/create-ui/css/images/drop_left.png') no-repeat -2px -2px;
     height: 44px;
     width: 44px;
     position: absolute;
@@ -916,12 +916,12 @@ div.halloEditIndicator {
 }
 
 .halloimage-dialog .pager-prev {
-    background: url('../../bundles/cmfcreate/vendor/create/themes/create-ui/css/images/pager_arrows.png') no-repeat -5px 0;
+    background: url('../bundles/cmfcreate/vendor/create/themes/create-ui/css/images/pager_arrows.png') no-repeat -5px 0;
     left: 0;
 }
 
 .halloimage-dialog .pager-next {
-    background: url('../../bundles/cmfcreate/vendor/create/themes/create-ui/css/images/pager_arrows.png') no-repeat -21px 0;
+    background: url('../bundles/cmfcreate/vendor/create/themes/create-ui/css/images/pager_arrows.png') no-repeat -21px 0;
     right: 0;
 }
 .halloimage-dialog .pager-prev:hover { background-position: -5px -22px; }
