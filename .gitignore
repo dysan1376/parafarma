@@ -13,7 +13,7 @@ behat.yml
 web/bundles
 web/css
 web/js
-web/assets/compiled
+web/assets
 
 bin/*
 !bin/install
