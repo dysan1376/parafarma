@@ -445,8 +445,8 @@ sylius:
         empty: Empty
     homepage:
         splash:
-            headline: Welcome to Sylius
-            subheadline: Modern ecommerce for Symfony2
+            headline: Parafarma
+            subheadline: Online Pharmacy
     inventory_unit:
         created_at: Created
         inventory_state: Inventory state
@@ -466,7 +466,7 @@ sylius:
         updated_at: Last update
     login: Login
     login_header: Administration
-    logo: Sylius
+    logo: Parafarma
     manage: Manage
     menu:
         create: Create menu
