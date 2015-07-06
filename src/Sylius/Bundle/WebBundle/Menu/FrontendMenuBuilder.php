@@ -261,17 +261,17 @@ class FrontendMenuBuilder extends MenuBuilder
         ));
 
         $menu->addChild('github', array(
-            'uri' => 'https://github.com/Sylius',
+            'uri' => 'https://github.com/dysan1376/parafarma',
             'linkAttributes' => array('title' => $this->translate('sylius.frontend.menu.social.github')),
             'labelAttributes' => array('icon' => 'icon-github-sign icon-large', 'iconOnly' => true)
         ));
         $menu->addChild('twitter', array(
-            'uri' => 'https://twitter.com/Sylius',
+            'uri' => 'https://twitter.com/Parafarmaec',
             'linkAttributes' => array('title' => $this->translate('sylius.frontend.menu.social.twitter')),
             'labelAttributes' => array('icon' => 'icon-twitter-sign icon-large', 'iconOnly' => true)
         ));
         $menu->addChild('facebook', array(
-            'uri' => 'http://facebook.com/SyliusEcommerce',
+            'uri' => 'http://facebook.com/Parafarmaec',
             'linkAttributes' => array('title' => $this->translate('sylius.frontend.menu.social.facebook')),
             'labelAttributes' => array('icon' => 'icon-facebook-sign icon-large', 'iconOnly' => true)
         ));

@@ -101,27 +101,27 @@ sylius:
         contact_requests: Solicitudes
         contact_topics: Configurar Tópicos
   frontend:
-    menu:
-      account:
-        addresses: Mi libreta de direcciones
-        homepage: Inicio
-        orders: Mis pedidos / mis facturas
-        password: Mi contraseña
-        profile: Mi información personal
-        shop: Volver a la tienda
-      currency: 'Mostrar los precios en %currency%'
-      main:
-        account: Mi cuenta
-        administration: Administración
-        cart: 'Ver carrito (%items%) %total%'
-        login: Iniciar sesión
-        logout: Cerrar sesión
-        register: Registrarse
-      sidebar:
-        links: Enlaces
-      social:
-        facebook: Facebook
-        github: GitHub
-        google: Google+
-        linkedin: LinkedIn
-        twitter: Twitter
+      menu:
+        account:
+          addresses: Mi libreta de direcciones
+          homepage: Inicio
+          orders: Mis pedidos / mis facturas
+          password: Mi contraseña
+          profile: Mi información personal
+          shop: Volver a la tienda
+        currency: 'Mostrar los precios en %currency%'
+        main:
+          account: Mi cuenta
+          administration: Administración
+          cart: 'Ver carrito (%items%) %total%'
+          login: Iniciar sesión
+          logout: Cerrar sesión
+          register: Registrarse
+        sidebar:
+          links: Enlaces
+        social:
+          facebook: Facebook
+          github: GitHub
+          google: Google+
+          linkedin: LinkedIn
+          twitter: Twitter
