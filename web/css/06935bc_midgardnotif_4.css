@@ -64,7 +64,7 @@
 .midgardNotifications-arrow_TR,
 .midgardNotifications-arrow_BL,
 .midgardNotifications-arrow_BR{
-	background-image:url(../bundles/cmfcreate/vendor/create/themes/midgard-notifications/topbottom.png);
+	background-image:url(../../bundles/cmfcreate/vendor/create/themes/midgard-notifications/topbottom.png);
 	width:13px;
 	height:7px;
 }
@@ -74,7 +74,7 @@
 .midgardNotifications-arrow_LB,
 .midgardNotifications-arrow_RT,
 .midgardNotifications-arrow_RB{
-	background-image:url(../bundles/cmfcreate/vendor/create/themes/midgard-notifications/leftright.png);
+	background-image:url(../../bundles/cmfcreate/vendor/create/themes/midgard-notifications/leftright.png);
 	width:7px;
 	height:13px;
 }

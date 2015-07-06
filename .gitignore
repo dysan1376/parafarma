@@ -11,6 +11,9 @@ app/config/deploy.rb
 behat.yml
 
 /web/bundles
+/web/assets
+/web/css
+/web/js
 
 bin/*
 !bin/install
