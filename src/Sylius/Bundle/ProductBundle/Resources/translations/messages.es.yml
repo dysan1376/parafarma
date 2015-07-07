@@ -4,15 +4,37 @@
 sylius:
   label:
     product:
-      name: Nombre
-      description: Descripción
       properties: Propiedades
       available_on: Disponible desde
-      meta_keywords: Meta palabras clave
-      meta_description: Meta descripción
     property:
       name: Nombre interno
       presentation: Presentación
     archetype:
       name: Nombre
       properties: Propiedades
+  product:
+    archetype: Prototipo
+    tabs:
+      attributes: Atributos
+      channels: Canales
+  product_option:
+    manage: Opciones de producto
+  product_attribute:
+    manage: Configurar atributos
+
+  form:
+    product:
+      name: Nombre
+      description: Descripción
+      attributes: Atributos
+      options: Opciones
+      meta_keywords: Meta palabras clave
+      meta_description: Meta descripción
+      translations: Traducciones
+    product_variant:
+      available_on: Disponible desde
+    product_archetype:
+      name: Nombre
+      parent: Hererado
+      attributes: Atributos
+      options: Opciones
