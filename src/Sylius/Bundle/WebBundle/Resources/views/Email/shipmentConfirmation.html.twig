@@ -3,9 +3,5 @@
     {{ 'email.shipment_confirmation.subject'|trans }}
     {% endautoescape %}
 {% endblock %}
-{% block body_text %}
-	<h1>{{ 'email.shipment_confirmation.header'|trans }}</h1>
-
-    {% include "SyliusWebBundle:Frontend/Account:Order/_detail.html.twig" %}
-{% endblock %}
+{% block body_text %}{% endblock %}
 {% block body_html %}{% endblock %}
