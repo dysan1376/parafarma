@@ -97,13 +97,13 @@ class OrderController extends FOSRestController
             ->get('knp_snappy.pdf')
             ->getInternalGenerator();
 
-        $generator->setOptions(array(
+        /*$generator->setOptions(array(
             'footer-left' => '[title]',
             'footer-right' => '[page]/[topage]',
             'footer-line' => true,
             'footer-font-name' => '"Helvetica Neue",​Helvetica,​Arial,​sans-serif',
             'footer-font-size' => 10,
-        ));
+        ));*/
 
         return new Response(
             $generator->getOutputFromHtml($html),
