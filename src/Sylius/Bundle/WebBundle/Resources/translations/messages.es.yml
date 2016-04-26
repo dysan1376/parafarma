@@ -6,7 +6,7 @@ email:
       order_confirmation:
           name: Confirmación de Pedido
           subject: Gracias por tu compra
-          header: !Felicidades! - Parafarma te informa el detalle de tu compra:
+          header: !Felicidades! - parafar.me te informa el detalle de tu compra:
 
       order_comment:
           name: Comentario
@@ -15,12 +15,12 @@ email:
 
       shipment_confirmation:
           name: Confirmación de envío
-          subject: Tu compra ha sido enviada!
+          subject: ¡Tu compra ha sido enviada!
           header: Nos alegra informarte que tu compra esta camino a casa
 
       user_confirmation:
           name: Confirmación de Usuario
-          subject: Bienvenido a Parafarma!
+          subject: ¡Bienvenido a parafar.me!
 sylius:
   account:
     address:
@@ -315,7 +315,7 @@ sylius:
     version: Versión
   homepage:
     splash:
-      headline: Parafarma
+      headline: parafar.me
       subheadline: Farmacia On-line
   inventory_unit:
     created_at: Fecha de creación
@@ -336,13 +336,13 @@ sylius:
     updated_at: Última actualización
   login: Entrar
   login_header: Administración
-  logo: Parafarma
+  logo: parafar.me
   manage: Administrar
   meta:
     backend_title: Panel de administración
-    frontend_description: 'Sylius es una solución moderna de e-commerce desarrollada en PHP  y basada en el framework Symfony2'
-    frontend_keywords: sylius, e-commerce, symfony2, tienda, carrito, webshop
-    frontend_title: Sylius, e-commerce moderno para Symfony2
+    frontend_description: parafar.me - farmacia on-line
+    frontend_keywords: farmacia, online, carrito, medicina, medico, salud, hospital
+    frontend_title: parafar.me
   na: N/A
   newest: Novedades
   "no": false
