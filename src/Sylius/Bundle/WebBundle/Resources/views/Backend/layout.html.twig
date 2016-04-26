@@ -7,11 +7,20 @@
             {% endblock %}
         </title>
         <meta charset="UTF-8">
+        <!-- responsiveness, scaling... -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <!-- set author of your site -->
+        <meta name="author" content="Red Medica">
 
-        <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Open+Sans:300italic,400,300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Open+Sans:300italic,400,300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+        <!-- site thumbnail -->
+        <link rel="image_src" href="thumbnail.png" />
+        <!-- favicon -->
+        <link rel="icon" type="image/ico" href="{{asset('favicon.ico')}}">
 
         {% block stylesheets %}
-            <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.css" type="text/css" />
+            <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.css" type="text/css" />
             {% stylesheets output='assets/compiled/backend.css' filter='cssrewrite'
                 'bundles/syliusweb/css/blueimp-gallery.css'
                 'bundles/syliusweb/css/select2.css'
@@ -71,8 +80,8 @@
 
         {# javascripts... #}
         {% block javascripts %}
-            <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-            <script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.0.1/js/bootstrap.min.js"></script>
+            <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+            <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.0.1/js/bootstrap.min.js"></script>
             {% javascripts output='assets/compiled/backend.js'
                 'bundles/syliusreport/js/chart.js'
                 'bundles/syliusweb/js/jquery.blueimp-gallery.min.js'

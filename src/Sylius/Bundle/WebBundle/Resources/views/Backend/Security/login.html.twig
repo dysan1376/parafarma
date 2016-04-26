@@ -8,16 +8,24 @@
             {% endblock %}
         </title>
         <meta charset="UTF-8">
+        <!-- responsiveness, scaling... -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <!-- set author of your site -->
+        <meta name="author" content="Red Medica">
+        <!-- site thumbnail -->
+        <link rel="image_src" href="thumbnail.png" />
+        <!-- favicon -->
+        <link rel="icon" type="image/ico" href="{{asset('favicon.ico')}}">
 
         <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
         <!--[if lt IE 9]>
-          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+          <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
 
         {% block stylesheets %}
             {% stylesheets output='assets/compiled/backend_login.css' filter='cssrewrite'
-                '//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css'
-                '//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css'
+                'https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css'
+                'https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css'
                 'bundles/syliusweb/css/backend.css'
             %}
                 <link rel="stylesheet" href="{{ asset_url }}" type="text/css" />
