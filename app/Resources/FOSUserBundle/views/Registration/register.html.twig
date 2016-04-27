@@ -84,6 +84,12 @@
   }
 </script>
 
+<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+</fb:login-button>
+
+<div id="status">
+</div>
+
 <div class="page-header">
     {{ 'registration.register_header'|trans|raw }}
 </div>
@@ -101,10 +107,4 @@
         <button type="submit" class="btn btn-success btn-lg"><i class="icon-user"></i> {{ 'registration.submit'|trans }}</button>
     </div>
 </form>
-
-<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
-</fb:login-button>
-
-<div id="status">
-</div>
 {% endblock %}
