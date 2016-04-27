@@ -259,12 +259,13 @@ class FrontendMenuBuilder extends MenuBuilder
                 'class' => 'nav nav-pills pull-right'
             )
         ));
-
+        /*
         $menu->addChild('github', array(
             'uri' => 'https://github.com/dysan1376/parafarma',
             'linkAttributes' => array('title' => $this->translate('sylius.frontend.menu.social.github')),
             'labelAttributes' => array('icon' => 'icon-github-sign icon-large', 'iconOnly' => true)
         ));
+        */
         $menu->addChild('twitter', array(
             'uri' => 'https://twitter.com/Parafarmaec',
             'linkAttributes' => array('title' => $this->translate('sylius.frontend.menu.social.twitter')),
