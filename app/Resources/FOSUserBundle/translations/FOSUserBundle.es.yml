@@ -18,3 +18,14 @@ resetting:
         header: <h1>Solicitud de cambio de contraseña</h1>
     reset:
         header: <h1>Cambiar Contraseña</h1>
+
+# Form field labels
+form:
+    group_name: "Nombre de grupo"
+    username: "Nombre de usuario"
+    email: "Email"
+    current_password: "Contraseña actual"
+    password: "Contraseña"
+    password_confirmation: "Repita la contraseña"
+    new_password: "Nueva contraseña"
+    new_password_confirmation: "Repita la contraseña"
