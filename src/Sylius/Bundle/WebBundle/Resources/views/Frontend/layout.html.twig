@@ -4,16 +4,16 @@
     <head>
         <title>
             {% block title %}
-                {#{ settings.title|default('sylius.meta.frontend_title'|trans) }#}parafar.me
+                {{ settings.title|default('sylius.meta.frontend_title'|trans) }}
             {% endblock %}
         </title>
         <meta charset="UTF-8">
         <!-- responsiveness, scaling... -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-        <meta name="description" content="{#{ settings.meta_description|default('sylius.meta.frontend_description'|trans) }#}parafar.me - farmacia on-line">
+        <meta name="description" content="{{ settings.meta_description|default('sylius.meta.frontend_description'|trans) }}">
         <!-- set author of your site -->
         <meta name="author" content="Red Medica">
-        <meta name="keywords" content="{#{ settings.meta_keywords|default('sylius.meta.frontend_keywords'|trans) }#}farmacia, online, carrito, medicina, medico, salud, hospital">
+        <meta name="keywords" content="{{ settings.meta_keywords|default('sylius.meta.frontend_keywords'|trans) }}">
 
         <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Open+Sans:300italic,400,300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
@@ -141,7 +141,7 @@
         {% block footer %}
             <div class="footer">
                 <p class="text-muted">
-                    &copy; parafar.me, {{ 'now'|date('Y') }}.
+                    &copy; <span style="color:#8DBF43 !important;">{{ 'sylius.logo'|trans|slice(0, 7) }}</span><span style="color:#404041 !important;margin-left: 0px;">.</span><span style="color:#1892B6 !important;margin-left: 0px;">{{ 'sylius.logo'|trans|slice(8, 10) }}</span> {{ 'now'|date('Y') }}
                 </p>
                 {{ knp_menu_render('sylius.frontend.social', {'template': 'SyliusWebBundle:Frontend:menu.html.twig'}) }}
             </div>
