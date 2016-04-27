@@ -69,7 +69,7 @@
             <div class="currency-menu masthead pull-right">
                 {{ knp_menu_render('sylius.frontend.currency', {'template': 'SyliusWebBundle:Frontend:menu.html.twig'}) }}
             </div>
-            <h1 class="logo"><a href="{{ path('sylius_homepage') }}" title="{{ 'sylius.logo'|trans }}"><span>{{ 'sylius.logo'|trans }}</span></a></h1>
+            <h1 class="logo"><a href="{{ path('sylius_homepage') }}" title="{{ 'sylius.logo'|trans }}"><span><span style="color:#8DBF43 !important;">{{ 'sylius.logo'|trans|slice(0, 7) }}</span><span style="color:#404041 !important;margin-left: 0px;">.</span><span style="color:#1892B6 !important;margin-left: 0px;">{{ 'sylius.logo'|trans|slice(8, 10) }}</span></span></a></h1>
         {% endblock %}
 
         {% block flashes %}
