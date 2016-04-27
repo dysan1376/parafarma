@@ -1,0 +1,20 @@
+# Security
+security:
+    login:
+        email: "Email"
+        header: <h1>Iniciar Sesión <small>parafar.me</small></h1>
+        info: Por favor inicie sesión usando un correo como "<strong>parafarme@ejemplo.com</strong>".
+        forgot_password: ¿Olvido su contraseña?
+        no_account: ¿Aún no ha creado una cuenta?
+
+# Registration
+registration:
+    register_header: <h1>Registro <small>Crea una nueva cuenta</small></h1>
+    confirmed_header: <h1>Bienvenido <small>El registro se realizo con éxito</small></h1>
+
+# Password resetting
+resetting:
+    request:
+        header: <h1>Solicitud de cambio de contraseña</h1>
+    reset:
+        header: <h1>Cambiar Contraseña</h1>
