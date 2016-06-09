@@ -14,6 +14,7 @@ sylius:
       properties: Propiedades
   product:
     archetype: Prototipo
+    attributes: Atributos
     tabs:
       attributes: Atributos
       channels: Canales

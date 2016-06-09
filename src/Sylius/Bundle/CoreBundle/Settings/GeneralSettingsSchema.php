@@ -45,10 +45,10 @@ class GeneralSettingsSchema implements SchemaInterface
     {
         $builder
             ->setDefaults(array_merge(array(
-                'title'            => 'Sylius - Modern ecommerce for Symfony2',
-                'meta_keywords'    => 'symfony, sylius, ecommerce, webshop, shopping cart',
-                'meta_description' => 'Sylius is modern ecommerce solution for PHP. Based on the Symfony2 framework.',
-                'locale'           => 'en',
+                'title'            => 'parafar.me',
+                'meta_keywords'    => 'farmacia, online, carrito, medicina, medico, salud, hospital',
+                'meta_description' => 'parafar.me - farmacia on-line',
+                'locale'           => 'es_EC',
                 'currency'         => 'USD',
                 'tracking_code'    => '',
             ), $this->defaults))

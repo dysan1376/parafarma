@@ -234,8 +234,8 @@ sylius_mailer:
         sylius.email.shipment_confirmation.name: SyliusWebBundle:Email:shipmentConfirmation.html.twig
         sylius.email.user_confirmation.name: SyliusWebBundle:Email:userConfirmation.html.twig
     sender:
-        name: hospi.me
-        address: info@hospi.me
+        name: parafar.me
+        address: info@parafar.me
     emails:
         order_confirmation:
             subject: sylius.emails.order_confirmation.subject

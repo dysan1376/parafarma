@@ -108,7 +108,7 @@
         {% if not product.hasVariants and not sylius_inventory_is_available(product.masterVariant) %}
             <span class="label label-warning">{{ 'sylius.out_of_stock'|trans }}</span>
         {% else %}
-            {{ form_row(form.quantity, {'attr': {'class': 'center-text'}, 'empty_value': '1'}) }}
+            {{ form_row(form.quantity, {'label': 'Cantidad', 'attr': {'class': 'center-text'}, 'empty_value': '1'}) }}
             {{ form_widget(form._token) }}
             <br>
             <br>
