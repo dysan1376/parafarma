@@ -204,22 +204,22 @@ sylius_search:
                 values: [taxons, price, made_of]
         facets:
             taxons:
-                display_name: 'Basic categories'
+                display_name: 'Categorías'
                 type: terms
                 value: ~
             price:
-                display_name: 'Available prices'
+                display_name: 'Precios disponibles'
                 type: range
                 values:
-                    - { from: 0, to: 2000}
+                    - { from: 0, to: 1000}
+                    - { from: 1001, to: 2000}
                     - { from: 2001, to: 5000}
-                    - { from: 5001, to: 10000}
             made_of:
-                display_name: 'Material'
+                display_name: 'Principio Activo'
                 type: terms
                 value: ~
             color:
-                display_name: 'Available colors'
+                display_name: 'Presentación'
                 type: terms
                 value: ~
 
