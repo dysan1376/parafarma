@@ -82,7 +82,7 @@
                 <option name="groups">sylius</option>
             </constraint>
         </property>
-        <property name="postcode">
+        <!--property name="postcode">
             <constraint name="NotBlank">
                 <option name="message">sylius.address.postcode.not_blank</option>
                 <option name="groups">sylius</option>
@@ -94,7 +94,7 @@
                 <option name="maxMessage">sylius.address.postcode.max_length</option>
                 <option name="groups">sylius</option>
             </constraint>
-        </property>
+        </property-->
     </class>
 
     <class name="Sylius\Component\Addressing\Model\Country">
