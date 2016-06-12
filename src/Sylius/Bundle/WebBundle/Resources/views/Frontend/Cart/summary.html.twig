@@ -20,6 +20,10 @@ $( document ).ready(function() {
       var algo = ($('.alert-danger').length);
       if (algo >= 1) {
         $('#sylius_cart_promotionCoupons_0').val('');
+        $('.btn-success').addClass('disabled');
+        $('#last').after('<div class="alert alert-danger">Al parecer el cupon ingresado no es válido, o ya fue utilizado anteriormente.<br> Por favor actualiza el precio <strong>SIN</strong> el cupon rechazado, o con un cupon válido antes de continuar.</div>');
+      } else {
+        $('.btn-success').removeClass('disabled');
       }
 });
 </script>
@@ -95,7 +99,7 @@ $( document ).ready(function() {
 </div>
 
 {{ form_rest(form) }}
-<div class="well">
+<div id="last" class="well">
     <button type="submit" class="btn btn-primary btn-lg"><i class="icon-save"></i> {{ 'sylius.cart.summary.save'|trans }}</button>
     <div class="pull-right">
     <a href="{{ path('sylius_checkout_start') }}" class="btn btn-success btn-lg"><i class="icon-shopping-cart"></i> {{ 'sylius.cart.summary.checkout'|trans }}</a>
