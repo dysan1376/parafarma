@@ -186,6 +186,7 @@ sylius:
       product: Producto
       quantity: Cantidad
       save: Guardar
+      update: Actualizar precio
       total: Total
       unit_price: Precio
     summary_header: Resumen
