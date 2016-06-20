@@ -100,7 +100,9 @@ hwi_oauth:
             type:          facebook
             client_id:     %sylius.oauth.facebook.clientid%
             client_secret: %sylius.oauth.facebook.clientsecret%
-            scope:         "email"
+            scope:         "email, public_profile"
+            options:
+                display: popup
         google:
             type:          google
             client_id:     %sylius.oauth.google.clientid%
