@@ -7,6 +7,12 @@
     {{ 'registration.register_header'|trans|raw }}
 </div>
 
+{% if error %}
+    <div class="alert alert-danger">
+        {{ error.messageKey|trans(error.messageData, 'security') }}
+    </div>
+{% endif %}
+
 <form action="{{ path('fos_user_registration_register') }}" method="post" class="form-horizontal" novalidate>
     <fieldset class="well">
         {% for field in form %}
