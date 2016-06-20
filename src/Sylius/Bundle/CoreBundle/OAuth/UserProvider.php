@@ -49,7 +49,7 @@ class UserProvider extends FOSUBUserProvider
     /**
      * {@inheritDoc}
      */
-    public function loadUserByOAuthUserResponse(UserResponseInterface $response)
+    public function oadUserByOAuthUserResponse(UserResponseInterface $response)
     {
         $oauth = $this->oauthRepository->findOneBy(array(
             'provider'   => $response->getResourceOwner()->getName(),
