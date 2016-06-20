@@ -53,7 +53,16 @@
         {{ render(url('hwi_oauth_connect')) }}
     </div-->
     <button type="submit" class="btn btn-primary btn-lg" name="login"><i class="icon-lock"></i> {{ 'security.login.submit'|trans }}</button>
+    <br><br>
+    ------------------- O -------------------
+    <div>
+        {{ render(url('hwi_oauth_connect')) }}
+    </div>
 </div>
 </form>
-
+<script type="text/javascript">
+$( document ).ready(function() {
+    $('.oauth-login-amazon').hide();
+});
+</script>
 {% endblock %}
