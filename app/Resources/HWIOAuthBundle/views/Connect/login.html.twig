@@ -2,7 +2,7 @@
     {% set ownerName = owner|trans({}, 'HWIOAuthBundle') %}
     <a class="oauth-login oauth-login-{{ ownerName }}" href="{{ hwi_oauth_login_url(owner) }}" title="{{ ownerName }}">
         <img src="{{ asset('bundles/syliusweb/img/icon/64/'~ownerName~'.png') }}" alt="{{ ownerName }}">
-        <div id="fb-root"></div>
+        <!--div id="fb-root"></div>
             <script>
                 window.fbAsyncInit = function() {
                     // init the FB JS SDK
@@ -51,14 +51,15 @@
             <p>
                 <a href="#" onclick="fb_login();">Facebook Connect Button (Dialog)</a>
                 <div class="fb-login-button" scope="email" registration-url="{{ path("hwi_oauth_service_redirect", {service: "facebook"}) }}" data-width="200">Registrarse con Facebook</div>
-            </p>
+            </p-->
     </a><br><br>
 
     
 
-        <!--script type="text/javascript">
+        <script type="text/javascript">
         $( document ).ready(function() {
             $('.oauth-login-amazon').hide();
+            $('.oauth-login-facebook').hide();
         });
-        </script-->
+        </script>
 {% endfor %}
