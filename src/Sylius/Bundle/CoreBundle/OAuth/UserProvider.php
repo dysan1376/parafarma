@@ -66,6 +66,10 @@ class UserProvider extends FOSUBUserProvider
                 return $this->updateUserByOAuthUserResponse($user, $response);
             }
         }
+        echo "<pre>";
+        \Doctrine\Common\Util\Debug::dump($response);
+        echo '</pre>';
+        sleep(10);
 
         return $this->createUserByOAuthUserResponse($response);
     }
