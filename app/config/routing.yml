@@ -59,8 +59,8 @@ hwi_oauth_redirect:
     resource: "@HWIOAuthBundle/Resources/config/routing/redirect.xml"
     prefix: /login
 
-amazon_login:
-    path: /login/check-amazon
+#amazon_login:
+#    path: /login/check-amazon
 
 facebook_login:
     path: /login/check-facebook

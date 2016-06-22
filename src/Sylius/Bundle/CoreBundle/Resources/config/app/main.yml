@@ -92,10 +92,10 @@ fos_rest:
 hwi_oauth:
     firewall_name: main
     resource_owners:
-        amazon:
-            type:          amazon
-            client_id:     %sylius.oauth.amazon.clientid%
-            client_secret: %sylius.oauth.amazon.clientsecret%
+#        amazon:
+#            type:          amazon
+#            client_id:     %sylius.oauth.amazon.clientid%
+#            client_secret: %sylius.oauth.amazon.clientsecret%
         facebook:
             type:          facebook
             client_id:     %sylius.oauth.facebook.clientid%

@@ -3,10 +3,4 @@
     <a class="oauth-login oauth-login-{{ ownerName }}" href="{{ hwi_oauth_login_url(owner) }}" title="{{ ownerName }}">
         <img src="{{ asset('bundles/syliusweb/img/icon/64/'~ownerName~'.png') }}" alt="{{ ownerName }}">
     </a><br><br>
-
-        <script type="text/javascript">
-        $( document ).ready(function() {
-            $('.oauth-login-amazon').hide();
-        });
-        </script>
 {% endfor %}
