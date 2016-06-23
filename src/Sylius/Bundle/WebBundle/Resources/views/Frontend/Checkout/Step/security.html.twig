@@ -28,6 +28,11 @@
                 </fieldset>
                 <div class="form-actions">
                     <input type="submit" class="btn btn-primary btn-block" name="login" value="{{ 'sylius.checkout.security.login'|trans }}" />
+                    <br><br>
+                    ------------------- O -------------------
+                    <div>
+                        {{ render(url('hwi_oauth_connect')) }}
+                    </div>
                 </div>
             </form>
         </div>
