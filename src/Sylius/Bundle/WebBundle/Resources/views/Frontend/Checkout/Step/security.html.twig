@@ -8,6 +8,20 @@
 {% include 'SyliusWebBundle:Frontend/Checkout:_progressBar.html.twig' %}
 
 <div class="row form-vertical">
+    <div class="col-md-6">
+        <div class="well">
+            <form class="form-horizontal">
+                <fieldset>
+                    <legend>{{ 'sylius.checkout.security.login_social'|trans }}</legend>
+                </fieldset>
+                <div class="form-actions">
+                    <div>
+                        {{ render(url('hwi_oauth_connect')) }}
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
     <div class="col-md-6 checkout-existing-customer">
         <div class="well">
             <form action="{{ path('fos_user_security_check') }}" method="post" class="form-horizontal">
@@ -28,15 +42,12 @@
                 </fieldset>
                 <div class="form-actions">
                     <input type="submit" class="btn btn-primary btn-block" name="login" value="{{ 'sylius.checkout.security.login'|trans }}" />
-                    <br><br>
-                    ------------------- O -------------------
-                    <div>
-                        {{ render(url('hwi_oauth_connect')) }}
-                    </div>
                 </div>
             </form>
         </div>
     </div>
+</div>
+<div class="row form-vertical">
     <div class="col-md-6 checkout-new-customer">
         {% if guest_form is not empty %}
         <div class="well">

@@ -236,6 +236,7 @@ sylius:
       login: Iniciar sesión
       new_customer: Nuevo Cliente
       register: Crear una cuenta
+      login_social: Ingresa con tus redes sociales
     shipping:
       error: Lo sentimos, pero nuestra tienda no puede enviar productos al país que ha elegido.
       header: Métodos de envío
