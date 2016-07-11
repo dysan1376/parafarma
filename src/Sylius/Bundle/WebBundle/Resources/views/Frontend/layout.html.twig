@@ -85,6 +85,16 @@
                   return t;
                 }(document, "script", "twitter-wjs"));
             </script>
+            <script type="text/javascript">
+                $(document).ready(function(){
+                     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+                        $('#sidebar').toggle();
+                     }
+                     $('.sidebar-collapse').on('click', function(){
+                         $('#sidebar').toggle(1000);
+                     });
+                });
+            </script>
             {% endblock %}
         {% endblock %}
     <div class="container">
@@ -117,6 +127,11 @@
         <hr>
         {% block slideshow_full %}{% endblock %}
         <div class="row">
+            <div class="sidebar-collapse" style="padding-left:16px;">
+                <a style="text-decoration: none;" href="#">
+                    <i class="icon-align-justify icon-large"></i>
+                </a>
+            </div><br>
             <div class="col-md-3" id="sidebar">
                 {% block sidebar %}
                 <div class="pull-left" style="margin-bottom: 10px;">
