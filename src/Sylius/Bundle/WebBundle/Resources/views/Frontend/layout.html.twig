@@ -87,23 +87,13 @@
             </script>
             <script type="text/javascript">
                 $(document).ready(function(){
-                    if ( $(window).width() < 480) {      
-                        $('#sidebar').hide();
+                     if( /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+                        $('#sidebar').toggle();
                         $('.name').css("font-size", "50px");
-                    } 
-                    $('.sidebar-collapse').on('click', function(){
+                     }
+                     $('.sidebar-collapse').on('click', function(){
                          $('#sidebar').toggle(1000);
                      });
-                     
-                    $(window).resize(function() {
-                      var newWidth = $(window).width();
-                        if ( $(window).width() < 480) {      
-                            $('#sidebar').hide();
-                            $('.name').css("font-size", "50px");
-                        } else if ( $(window).width() >= 481) {
-                            $('#sidebar').show();
-                            $('.name').css("font-size", "72px");
-                        }
                 });
             </script>
             {% endblock %}
